@@ -1,6 +1,6 @@
 import React from "react";
 
-interface WelcomeProps{
+type WelcomeProps = {
     name : string;
 }
 
