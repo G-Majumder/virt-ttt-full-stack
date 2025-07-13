@@ -1,0 +1,22 @@
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;            /* Add this */
+  box-sizing: border-box;  /* Ensures padding/margin don't break layout */
+  background-color: #f0f0f0;
+}
+
+.form-box {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  min-width: 300px;
+}
+
+.form-box h3 {
+  font-weight: bold;
+}
